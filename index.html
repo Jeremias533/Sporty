@@ -1,0 +1,295 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     
+    <style>
+        .center-content {
+      display: flex;
+      justify-content: center;  
+      align-items: center;       
+    }
+
+    .center-content ul li a {
+        font-family: 'Roboto';
+  font-size: 23px;
+  color: rgb(255, 255, 255); 
+  text-decoration: none;
+}
+
+h2 {
+color: white;
+  font-family: 'Roboto';
+}
+
+.overlay-content {
+      position: absolute;
+      bottom: 0px;
+      left: 12px;
+      right: 12px;
+      
+      color: white;
+      background:linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+      padding: 20px;
+    }
+
+.overlay-content-gallery {
+  position: absolute;
+  font-size: x-large;
+  
+  font-family: 'Arvo', Sans-Serif;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  padding: 80px;
+  text-align: center; 
+  width: 100%;   
+    }
+
+    
+
+    .overlay-content h5 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+
+    .overlay-content a {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #000000b1;
+  border: 2px solid white;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: absolute; 
+  right: 10px;         
+  bottom: 10px;        
+}
+
+@media (max-width: 900px) {
+  .parallax-container {
+    height: 200px; /* Smaller height for smaller screens */
+  }
+}
+
+h5{
+  
+  font-family: 'Roboto';
+  margin-left: 20px;
+}
+
+    .row > div{
+        width: 100px;
+        height: 300px;
+      padding: 10px;
+      background: #34343416;
+      border: 1px solid #000000c4;
+    }
+    .row{
+      margin: 40px auto;
+    }
+    
+      </style>
+    <title>Sporty Dealership</title>
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+        <div>
+          <img src="img/Home/Home-pic-2.png" style="max-width: 100%; height: auto;" alt="home-display"/>
+          
+        </div>
+    <div class="navbar ">
+    <nav class="nav-wrapper" style="max-width: 100%;
+       height: 80px; text-align: center; background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))">
+      <div class="container">
+        <a
+        class="brand-logo hide-on-large-only"
+        href="index.html"
+        style="text-decoration: none; color: rgb(85, 85, 85)"
+          ><img
+            src="img/Home/Logo.png"
+            style="max-width: 100%; max-height: 50px; margin: 20px"
+            alt="" /></span
+      ></a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    
+    <div class="center-content">
+      <ul class="hide-on-med-and-down">
+        
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#featured">Featured </a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#find" class="btn White black-text font-weight-bold"><i class="material-icons left">search</i> Search Dealership</a></li>
+        </ul>
+  </div>
+    </nav>
+  </div>
+
+
+ 
+  <section>
+    <hr class="scrollspy" id="overview">
+    <H2 class="center">Categories</H2>
+    <hr>
+    <div  class="container">
+        <div class="row">
+            
+      <div class="col s12 m12 l4" style="position: relative; height: auto;"><img src="img/911/911-2.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;">
+        <div class="overlay-content">
+        <span>Sports Cars</span>
+        <a href="sports.html"><i class="material-icons white-text">arrow_forward</i></a>
+      </div></div>
+      <div class="col s12 m12 l4" style="position: relative; height: auto;"><img src="img/Roadster/r2.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> <div class="overlay-content">
+        <span>Electric Cars</span>
+        <a href="electric.html"><i class="material-icons white-text">arrow_forward</i></a>
+      </div></div>
+      <div class="col s12 m12 l4" style="position: relative; height: auto;"><img src="img/lambo/l3.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> <div class="overlay-content">
+        <span>Super Cars</span>
+        <a href="super.html"><i class="material-icons white-text">arrow_forward</i></a>
+      </div></div>
+      </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/Home/Parallax-1.png" alt="" class="responsive-img">
+      
+    </div>
+    
+  </div>
+  <br>
+  <hr  class="scrollspy" id="featured">
+  <H2 class="center">Featured Models</H2>
+  <hr>
+
+ 
+  <div class="">
+    <div class="row">
+        
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/Ferrari/f2.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> <div class="overlay-content">
+    <span>Ferrari-SF90</span>
+    <a href="Ferrari-SF90.html">Configure</i>
+    </a>
+  </div></div>
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/Roadster/r3.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> <div class="overlay-content">
+    <span>Tesla Roadster</span>
+    <a href="roadster.html">Configure</a>
+  </div></div>
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/lambo/l3.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> <div class="overlay-content">
+    <span>Lamborghini Huracan 2024</span>
+    <a href="lambo.html">Configure</a>
+  </div></div>
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/911/911-2.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> <div class="overlay-content">
+    <span>Porsche 911</span>
+    <a href="porsche911.html">Configure</a>
+  </div></div>
+  </div>
+
+  <hr  class="scrollspy" id="gallery">
+    <H2 class="center">Gallery</H2>
+   <hr>
+   <br>
+   <br>
+
+  
+  <!-- parallax -->
+  <div class="parallax-container center position-relative">
+    <div class="parallax">
+      <img src="img/Home/Parallax-2.png" alt="" class="responsive-img">
+      <div class="overlay-content-gallery">
+        <span>Check our released cars!</span>
+      </div>
+    </div>
+    <a href="gallery.html" class="btn-floating pulse white" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);">
+        <i class="material-icons black-text">arrow_forward</i>
+    </a>
+  </div>
+
+  <div class="">
+    <div class="row">
+        
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/Dodge/dodge.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"></div>
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/Ford/Ford-3.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> </div>
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/MX-5/MX5-1x1-3.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> </div>
+  <div class="col s6 m6 l3" style="position: relative; height: auto;"><img src="img/Tesla-s/t3.png" alt="Image 1" class="responsive-img" style="width: 100%; height: auto;"> </div>
+  </div>
+
+ 
+
+  <hr  class="scrollspy"id="find">
+  <H2 class="center">Find Dearlership</H2>
+  <hr>
+  <br>
+
+  <br>
+  <div style="position: relative;">
+    <img src="img/Home/Map.png" style="max-width: 100%; height: auto;" alt="home-display"/>
+    <div class="overlay-content-gallery" style="top: 100;"></div>
+      <a href="inquiry.html" class="btn-large pulse white" style="position: absolute; top: 120px; left: 50%; transform: translateX(-50%); color: #000; font-weight: 700; font-size: large;">
+        <i class="material-icons left">search</i> Search Dealership
+      </a>
+  </div>
+  
+
+  <footer class="page-footer black darken-3">
+    <div class="">
+      <div class="row">
+        <div class="col l8 s12 black"style="border: none;">
+          <h5 class="">Sporty Dealership</h5>
+          <p style="text-align: justify; margin: 20px;"> We are a leading multi-franchise performance sportscar dealership and our car brands come with an every growing export for overseas buyers. What we started with was a simple premise: Every car enthusiast should have convenient access to great high-performance cars, and in using those vehicles they’d get first-class customer service too. Through our comprehensive list of contacts with only the top brands, we are confident that we can provide you with exceptional options among recent models suited to making your drive as exciting and worthwhile..</p>
+          
+        </div>
+        <div class="col l4 s12 black" style="border: none;">
+          <h5 class="white-text ">Contact Us</h5>
+          <ul>
+            <li><a class="white-text"style="text-align: justify; margin: 10px;" href="#">•Phone: (555) 123-4567</a></li>
+            <li><a class="white-text"style="text-align: justify; margin: 10px;" href="#">•sales@sportydealership.com
+            </a></li>
+            <li><a class="white-text"style="text-align: justify; margin: 10px;" href="#">•123 Speedway Drive, CA 0992</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2024 SportyDearlership.com</div>
+    </div>
+  </footer>
+
+    
+    
+
+  <ul class="sidenav" id="mobile-links">
+    <img src="img/Home/Logo.jpg" alt="" style="height: 70px;">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#featured">Featured Models</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#find">Find Dearlership</a></li>
+  </ul>
+
+
+  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.parallax').parallax();
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
